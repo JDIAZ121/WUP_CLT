@@ -72,7 +72,6 @@ mdata  <-matrix(Hdata,nrow=1000,ncol=numb)
 x.avg <- apply(mdata,1,mean)
 my1000$k4 = x.avg
 
-
 p <- ggplot(my1000, aes(x=k4),col=sex) + 
   geom_density() +
 
